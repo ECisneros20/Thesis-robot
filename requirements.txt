@@ -1,0 +1,16 @@
+# thesis_bringup
+- 
+
+# thesis_description
+- [OK] sudo apt install ros-noetic-joint-state-publisher-gui
+
+# thesis_gazebo
+- 
+
+# thesis_teleop
+- [OK] sudo apt install python3-pip
+- [OK] pip3 install ds4drv
+- [OK] sudo apt install joystick
+- [OK] sudo apt install jstest-gtk
+- [OK] sudo apt install ros-noetic-joy
+- [OK] sudo apt install ros-noetic-teleop-twist-joy
