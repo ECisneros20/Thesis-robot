@@ -1,6 +1,10 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 Changelog for Thesis robot
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+0.0.3 (2023-08-23)
+------------------
+* Update the requirements.txt file with teleop libraries.
+* Create thesis_teleop package.
 0.0.2 (2023-08-19)
 ------------------
 * Update the README.md file.

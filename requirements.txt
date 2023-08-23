@@ -14,3 +14,4 @@
 - [OK] sudo apt install jstest-gtk
 - [OK] sudo apt install ros-noetic-joy
 - [OK] sudo apt install ros-noetic-teleop-twist-joy
+- [OK] sudo apt install ros-noetic-teleop-twist-keyboard

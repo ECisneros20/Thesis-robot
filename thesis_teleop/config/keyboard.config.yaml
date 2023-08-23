@@ -1,0 +1,4 @@
+# Linear velocity +/- 0.5 m/s
+speed_limit: 0.50
+# Angular velocity +/- 1.0 rad/s
+turn_limit: 1.0
