@@ -7,13 +7,12 @@
   <group if="$(eval joy_config == 'keyboard')">
 
     <node pkg="teleop_twist_keyboard" name="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen">
-      <remap from="/cmd_vel" to="/turtle1/cmd_vel"/>
       <rosparam command="load" file="$(arg config_filepath)"/>
     </node>
 
   </group>
 
-  <group if="$(eval joy_config != 'keyboard')">
+  <group unless="$(eval joy_config == 'keyboard')">
 
     <node pkg="joy" name="joy_node" type="joy_node">
       <param name="dev" value="$(arg joy_dev)"/>
