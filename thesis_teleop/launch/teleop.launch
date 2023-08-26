@@ -1,6 +1,6 @@
 <launch>
 
-  <arg name="joy_config" default="keyboard"/>
+  <arg name="joy_config" default="logitech"/>
   <arg name="joy_dev" default="/dev/input/js0"/>
   <arg name="config_filepath" default="$(find thesis_teleop)/config/$(arg joy_config).config.yaml"/>
 
