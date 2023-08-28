@@ -32,7 +32,7 @@ A pdf example is shown below:
 
 <br/>
 <p align="center">
-  <img src="https://github.com/ECisneros20/Thesis-robot/assets/88266673/ed295abb-b24c-4d6c-beaa-e5694e6e0509" width="1000">
+  <img src="https://github.com/ECisneros20/Thesis-robot/assets/88266673/ed295abb-b24c-4d6c-beaa-e5694e6e0509" width="1200">
 </p>
 
 ## Usage for virtual tests
