@@ -18,6 +18,23 @@ To clone the latest release into your workspace:
 
     git clone -b release/1.0.0 https://github.com/ECisneros20/Thesis-robot.git
 
+## Link transformations
+
+Open a new terminal and type the following path:
+
+    cd ~/catkin_ws/src/Thesis-robot
+
+Run this command to get the tf references:
+
+    rosrun tf2_tools view_frames.py
+
+A pdf example is shown below:
+
+<br/>
+<p align="center">
+  <img src="https://github.com/ECisneros20/Thesis-robot/assets/88266673/ed295abb-b24c-4d6c-beaa-e5694e6e0509" width="1000">
+</p>
+
 ## Usage for virtual tests
 
 ## Next steps
