@@ -2,7 +2,7 @@
 - 
 
 # thesis_description
-- [OK] sudo apt install ros-noetic-joint-state-publisher-gui
+- [OK] sudo apt install ros-noetic-tf2-tools
 
 # thesis_gazebo
 - 
