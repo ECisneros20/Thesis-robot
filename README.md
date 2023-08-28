@@ -37,6 +37,62 @@ A pdf example is shown below:
 
 ## Usage for virtual tests
 
+### For the thesis_description package:
+
+<table align="center">
+  <tr>
+    <th>Arg name</th>
+    <th>Default value</th>
+    <th>Package</th>
+    <th>Other values</th>
+  </tr>
+  <tr>
+    <td>world_name</td>
+    <td>standard</td>
+    <td>thesis_gazebo</td>
+    <td>underground</td>
+  </tr>
+  <tr>
+    <td>rvizconfig</td>
+    <td>urdf</td>
+    <td>thesis_description</td>
+    <td>all, navigation, sensors</td>
+  </tr>
+  <tr>
+    <td>show_gazebo</td>
+    <td>false</td>
+    <td>thesis_description</td>
+    <td>true</td>
+  </tr>
+  <tr>
+    <td>show_rviz</td>
+    <td>false</td>
+    <td>thesis_description</td>
+    <td>true</td>
+  </tr>
+</table>
+
+    roslaunch thesis_description spawn_robot.launch
+
+### For the thesis_teleop package:
+
+<table align="center">
+  <tr>
+    <th>Arg name</th>
+    <th>Default value</th>
+    <th>Package</th>
+    <th>Other values</th>
+  </tr>
+  <tr>
+    <td>joy_config</td>
+    <td>logitech</td>
+    <td>thesis_teleop</td>
+    <td>keyboard, ps4</td>
+  </tr>
+</table>
+
+    roslaunch thesis_teleop teleop.launch
+
 ## Next steps
 
 - Create the ROS packages.
